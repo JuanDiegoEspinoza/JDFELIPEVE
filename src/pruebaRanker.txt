@@ -1,0 +1,4 @@
+que es UML
+como represento que una clase es abstracta
+como relaciono dos clases de composicion
+como se hace un interface
