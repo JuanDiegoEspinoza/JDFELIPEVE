@@ -12,7 +12,7 @@ public class prueba {
 	public prueba() {
 		try {
 			DataLine.Info dLI = new DataLine.Info(TargetDataLine.class,aF);
-			tD = (TargetDataLine)AudioSystem.getLine(dLI);
+			tD = (TargetDataLine) AudioSystem.getLine(dLI);
 			new CapThread().start();
 			System.out.println("Grabando durante 10s...");
 			Thread.sleep(10000);
